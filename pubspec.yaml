@@ -1,0 +1,35 @@
+name: mi_card
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/man-icon-vector-260nw-1040084344.jpeg
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: fonts/Lobster-Regular.ttf
+
+    - family: IBMPlexSans
+      fonts:
+        - asset: fonts/IBMPlexSans-Light.ttf
+
+
